@@ -9,13 +9,14 @@ from RiZoeLX.functions import check_logchannel
 
 if os.path.exists(".env"):
     load_dotenv(".env")
-
+Api id : 26702190
+Api hash : 175c63334b2f3aefb1230d19695dd918
 # -------------CONFIGS--------------------
-API_ID = int(os.getenv("API_ID", ""))
+API_ID = int(os.getenv("API_ID", "26702190"))
 if not API_ID:
    print("SpamX [INFO]: You didn't fill API_ID var!")
    sys.exit()
-API_HASH = os.getenv("API_HASH", "")
+API_HASH = os.getenv("API_HASH", "175c63334b2f3aefb1230d19695dd918")
 if not API_HASH:
    print("SpamX [INFO]: You didn't fill API_HASH var!")
    sys.exit()
